@@ -1,0 +1,5 @@
+projectKey=com.aspire.demo:StudentSample
+serverUrl=http://13.59.219.140:9000
+dashboardUrl=http://13.59.219.140:9000/dashboard/index/com.aspire.demo:StudentSample
+ceTaskId=AVzYQ68o8PPQBV1pDCFT
+ceTaskUrl=http://13.59.219.140:9000/api/ce/task?id=AVzYQ68o8PPQBV1pDCFT
