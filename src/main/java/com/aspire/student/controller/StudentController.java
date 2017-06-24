@@ -211,7 +211,8 @@ public class StudentController {
       logger.info("Getting all student list");
       studentList = studentService.getStudentList();
     } catch (Exception e) {
-      logger.error("Error while getting all students", e);
+      //logger.error("Error while getting all students", e);
+	    e.printStackTrace();
     }
     Map<String, Object> map = new HashMap<String, Object>();
     List<StudentVO> studentVOList = StudentUtil.getStudentVOList(studentList);
