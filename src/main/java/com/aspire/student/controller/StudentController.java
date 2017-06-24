@@ -148,7 +148,7 @@ public class StudentController {
     try {
       student = studentService.saveStudent(student);
     } catch (Exception e) {
-		//Sonar Test Purpose
+		//Sonar Test Purpose sonar5
       //logger.error("Error while saving student", e);
 	  e.printStackTrace();
     }
